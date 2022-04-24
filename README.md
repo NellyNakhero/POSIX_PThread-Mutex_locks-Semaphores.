@@ -37,3 +37,9 @@ Process/Thread synchronization using the Mutex locks, and Semaphores., Usage of 
 <br/>
 
 <h2> Execution instructions, if any. </h2>
+<br/>
+<br/>
+<br/>
+
+<h2> Problem: Distribution. </h2>
+<img src="problem dist.png">
