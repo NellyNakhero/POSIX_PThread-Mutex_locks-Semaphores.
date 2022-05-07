@@ -125,3 +125,44 @@ Provide output from three sample runs.
 </li>
 <li> </li>
 </ol>
+<br/>
+<br/>
+<br/>
+
+<h2> Part–3 </h2>
+<ol>
+<li> Re-implement Part – 2(1)(d) as follows implementing synchronization mechanisms
+    discussed in class to ensure that each thread atomically updates the group counts. 
+    <ol type="a">
+        <li> Declare and initialize 10 mutex locks, or 10 semaphores (based on the
+            synchronization mechanism you choose). Each mutex lock / semaphore
+            represents one group-count global variable.</li>
+        <li>Each thread performs following task:
+            <ol type="i">
+                <li> For each integer in the assigned sub-list:
+                <br/>
+                        Identify the group (bin) that it belongs to, and
+                <br/>
+                        Acquire exclusive access to the group-count global variable by
+                        acquiring respective mutex lock / semaphore.
+                <br/>
+                    Increment the respective group count (global variable).
+                <br/>
+                    Explicitly release the lock.
+                <br/>
+                </li>
+                <li>Terminate the thread</li>
+            </ol>
+         </li>
+        <li>Prints to the output file in the format specified in Part-1(1)(c).. </li>
+    </ol>
+</li>
+<li> Provide following:
+<br/>
+Output from a sample run.
+</li>
+<li> </li>
+</ol>
+<br/>
+<br/>
+<br/>
