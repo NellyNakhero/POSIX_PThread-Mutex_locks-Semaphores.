@@ -43,3 +43,50 @@ Process/Thread synchronization using the Mutex locks, and Semaphores, Usage of P
 
 <h2> Problem: Distribution. </h2>
 <img src="problem dist.png">
+<br/>
+<br/>
+<br/>
+
+<h2> Part–1 </h2>
+<ol>
+<li>Write a program in C/C++ that computes the distribution as follows:
+    <ol type="a">
+        <li>Read 100 integers from given input file </li>
+        <li> For each integer,
+            <ul>
+                <li> Identify the group (bin) that it belongs to, and </li> 
+                <li> Increment the respective group count.</li>
+            </ul>
+        </li>
+        <li> Print to the output file in following format:
+            <br/>
+            Group 1 (0..9) Count:
+            <br/>
+            Group 2 (10..19) Count:
+            <br/>
+            Group 3 (20..29) Count:
+            <br/>
+            Group 4 (30..39) Count:
+            <br/>
+            Group 5 (40..49) Count:
+            <br/>
+            Group 6 (50..59) Count:
+            <br/>
+            Group 7 (60..69) Count:
+            <br/>
+            Group 8 (70..79) Count:
+            <br/>
+            Group 9 (80..89) Count:
+            <br/>
+            Group 10 (90..99) Count:   
+            <br/>     
+        </li>
+        <li> </li>
+    </ol>    
+ </li>
+<li> Provide following:
+<br/>  
+Output from a sample run.
+<br/>  
+</li>
+</ol>
