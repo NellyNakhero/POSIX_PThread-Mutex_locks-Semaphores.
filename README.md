@@ -124,5 +124,4 @@ Output from a sample run.
 Provide output from three sample runs.
 </li>
 <li> </li>
-<li> </li>
 </ol>
