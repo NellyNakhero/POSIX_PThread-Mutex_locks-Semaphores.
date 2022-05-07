@@ -90,3 +90,39 @@ Output from a sample run.
 <br/>  
 </li>
 </ol>
+<br/>
+<br/>
+<br/>
+
+<h2> Part–2 </h2>
+<ol>
+<li> Re-implement Part – 1 with POSIX Pthreads as follows. 
+    <ol type="a">
+        <li> Read 100 integers from given input file into an array, or a list.</li>
+        <li> Create 10 concurrent threads.</li>
+        <li>Partition the list into 10 parts comprising 10 integers each and assign one part to each thread. Pass the starting index of sub-list as parameter. For example:
+            <br/>
+            Thread 6 processes the array elements [50]..[59]; hence, pass the starting
+            index 50 as a parameter.
+        </li>
+        <li>Each thread performs following task:
+            <ol type="i">
+                <li> For each integer in the assigned sub-list:
+                    <br/>
+                        Identify the group (bin) that it belongs to, and
+                    <br/>
+                        Increment the respective group count (global variable).
+                </li>
+                <li>Terminate the thread. </li>
+            </ol>
+         </li>
+        <li>Prints to the output file in the format specified in Part-1(1)(c). </li>
+    </ol>
+</li>
+<li> Provide following:
+<br/>
+Provide output from three sample runs.
+</li>
+<li> </li>
+<li> </li>
+</ol>
